@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1B28241D45F6C800B5B318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28231D45F6C800B5B318 /* main.m */; };
+		2A1B28271D45F6C800B5B318 /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28261D45F6C800B5B318 /* MEAppDelegate.m */; };
+		2A1B282F1D45F6C800B5B318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B282E1D45F6C800B5B318 /* Assets.xcassets */; };
+		2A1B28321D45F6C800B5B318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B28301D45F6C800B5B318 /* LaunchScreen.storyboard */; };
+		2A1B283D1D45F6C800B5B318 /* MagnetExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B283C1D45F6C800B5B318 /* MagnetExperimentTests.m */; };
+		2A1B28481D45F6C800B5B318 /* MagnetExperimentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28471D45F6C800B5B318 /* MagnetExperimentUITests.m */; };
+		2A1B28571D45F7D800B5B318 /* MEGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28561D45F7D800B5B318 /* MEGameViewController.m */; };
+		2A1B28681D45F93300B5B318 /* MEGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28631D45F93300B5B318 /* MEGLProgram.m */; };
+		2A1B28691D45F93300B5B318 /* MESceneKitTextureRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28651D45F93300B5B318 /* MESceneKitTextureRenderer.m */; };
+		2A1B286A1D45F93300B5B318 /* METextureRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28671D45F93300B5B318 /* METextureRenderer.m */; };
+		2A1B28711D45F9A200B5B318 /* MEMenuSceneHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B286C1D45F9A200B5B318 /* MEMenuSceneHandler.m */; };
+		2A1B28721D45F9A200B5B318 /* MEPipeSceneHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B286E1D45F9A200B5B318 /* MEPipeSceneHandler.m */; };
+		2A1B28731D45F9A200B5B318 /* MERadialMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28701D45F9A200B5B318 /* MERadialMovement.m */; };
+		2A1B287C1D45FA4100B5B318 /* VRM2DVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28761D45FA4100B5B318 /* VRM2DVector.m */; };
+		2A1B287D1D45FA4100B5B318 /* VRM3DVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B28781D45FA4100B5B318 /* VRM3DVector.m */; };
+		2A1B287E1D45FA4100B5B318 /* VRMBicubicInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B287A1D45FA4100B5B318 /* VRMBicubicInterpolator.m */; };
+		2A1B28811D45FB0900B5B318 /* game.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B28801D45FB0900B5B318 /* game.scnassets */; };
+		2ACA1CD81D4601990040D12C /* UIColor+MEColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA1CD71D4601990040D12C /* UIColor+MEColor.m */; };
+		2ACA1CDC1D46038C0040D12C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA1CDA1D46038C0040D12C /* Shader.fsh */; };
+		2ACA1CDD1D46038C0040D12C /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA1CDB1D46038C0040D12C /* Shader.vsh */; };
+		308C122CD7F6083AF9CB7008 /* Pods_MagnetExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC48BC1AE473EBC2E8683C /* Pods_MagnetExperiment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1B28391D45F6C800B5B318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1B28171D45F6C800B5B318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1B281E1D45F6C800B5B318;
+			remoteInfo = MagnetExperiment;
+		};
+		2A1B28441D45F6C800B5B318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1B28171D45F6C800B5B318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1B281E1D45F6C800B5B318;
+			remoteInfo = MagnetExperiment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A1B281F1D45F6C800B5B318 /* MagnetExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnetExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1B28231D45F6C800B5B318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A1B28251D45F6C800B5B318 /* MEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
+		2A1B28261D45F6C800B5B318 /* MEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
+		2A1B282E1D45F6C800B5B318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A1B28311D45F6C800B5B318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A1B28331D45F6C800B5B318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1B28381D45F6C800B5B318 /* MagnetExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1B283C1D45F6C800B5B318 /* MagnetExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagnetExperimentTests.m; sourceTree = "<group>"; };
+		2A1B283E1D45F6C800B5B318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1B28431D45F6C800B5B318 /* MagnetExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1B28471D45F6C800B5B318 /* MagnetExperimentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagnetExperimentUITests.m; sourceTree = "<group>"; };
+		2A1B28491D45F6C800B5B318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1B28551D45F7D800B5B318 /* MEGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGameViewController.h; sourceTree = "<group>"; };
+		2A1B28561D45F7D800B5B318 /* MEGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGameViewController.m; sourceTree = "<group>"; };
+		2A1B28621D45F93300B5B318 /* MEGLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGLProgram.h; sourceTree = "<group>"; };
+		2A1B28631D45F93300B5B318 /* MEGLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGLProgram.m; sourceTree = "<group>"; };
+		2A1B28641D45F93300B5B318 /* MESceneKitTextureRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESceneKitTextureRenderer.h; sourceTree = "<group>"; };
+		2A1B28651D45F93300B5B318 /* MESceneKitTextureRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESceneKitTextureRenderer.m; sourceTree = "<group>"; };
+		2A1B28661D45F93300B5B318 /* METextureRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METextureRenderer.h; sourceTree = "<group>"; };
+		2A1B28671D45F93300B5B318 /* METextureRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METextureRenderer.m; sourceTree = "<group>"; };
+		2A1B286B1D45F9A200B5B318 /* MEMenuSceneHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMenuSceneHandler.h; sourceTree = "<group>"; };
+		2A1B286C1D45F9A200B5B318 /* MEMenuSceneHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMenuSceneHandler.m; sourceTree = "<group>"; };
+		2A1B286D1D45F9A200B5B318 /* MEPipeSceneHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEPipeSceneHandler.h; sourceTree = "<group>"; };
+		2A1B286E1D45F9A200B5B318 /* MEPipeSceneHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEPipeSceneHandler.m; sourceTree = "<group>"; };
+		2A1B286F1D45F9A200B5B318 /* MERadialMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERadialMovement.h; sourceTree = "<group>"; };
+		2A1B28701D45F9A200B5B318 /* MERadialMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERadialMovement.m; sourceTree = "<group>"; };
+		2A1B28751D45FA4100B5B318 /* VRM2DVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRM2DVector.h; sourceTree = "<group>"; };
+		2A1B28761D45FA4100B5B318 /* VRM2DVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRM2DVector.m; sourceTree = "<group>"; };
+		2A1B28771D45FA4100B5B318 /* VRM3DVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRM3DVector.h; sourceTree = "<group>"; };
+		2A1B28781D45FA4100B5B318 /* VRM3DVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRM3DVector.m; sourceTree = "<group>"; };
+		2A1B28791D45FA4100B5B318 /* VRMBicubicInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRMBicubicInterpolator.h; sourceTree = "<group>"; };
+		2A1B287A1D45FA4100B5B318 /* VRMBicubicInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRMBicubicInterpolator.m; sourceTree = "<group>"; };
+		2A1B287B1D45FA4100B5B318 /* VRMVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRMVector.h; sourceTree = "<group>"; };
+		2A1B28801D45FB0900B5B318 /* game.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = game.scnassets; sourceTree = "<group>"; };
+		2ACA1CD51D45FE020040D12C /* MagnetExperiment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetExperiment.h; sourceTree = "<group>"; };
+		2ACA1CD61D4601990040D12C /* UIColor+MEColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MEColor.h"; sourceTree = "<group>"; };
+		2ACA1CD71D4601990040D12C /* UIColor+MEColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MEColor.m"; sourceTree = "<group>"; };
+		2ACA1CDA1D46038C0040D12C /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2ACA1CDB1D46038C0040D12C /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		5EBC48BC1AE473EBC2E8683C /* Pods_MagnetExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagnetExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D0ABC93F362FD2B283E9BB /* Pods-MagnetExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagnetExperiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagnetExperiment/Pods-MagnetExperiment.release.xcconfig"; sourceTree = "<group>"; };
+		CF57A7470663DC15CA4F0D00 /* Pods-MagnetExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagnetExperiment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagnetExperiment/Pods-MagnetExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1B281C1D45F6C800B5B318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C122CD7F6083AF9CB7008 /* Pods_MagnetExperiment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B28351D45F6C800B5B318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B28401D45F6C800B5B318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09942642A9798C4A00EA6465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF57A7470663DC15CA4F0D00 /* Pods-MagnetExperiment.debug.xcconfig */,
+				A3D0ABC93F362FD2B283E9BB /* Pods-MagnetExperiment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A1B28161D45F6C800B5B318 = {
+			isa = PBXGroup;
+			children = (
+				2A1B28211D45F6C800B5B318 /* MagnetExperiment */,
+				2A1B283B1D45F6C800B5B318 /* MagnetExperimentTests */,
+				2A1B28461D45F6C800B5B318 /* MagnetExperimentUITests */,
+				2A1B28201D45F6C800B5B318 /* Products */,
+				09942642A9798C4A00EA6465 /* Pods */,
+				7427AD84F229C2DC387EA205 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1B28201D45F6C800B5B318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B281F1D45F6C800B5B318 /* MagnetExperiment.app */,
+				2A1B28381D45F6C800B5B318 /* MagnetExperimentTests.xctest */,
+				2A1B28431D45F6C800B5B318 /* MagnetExperimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1B28211D45F6C800B5B318 /* MagnetExperiment */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA1CD51D45FE020040D12C /* MagnetExperiment.h */,
+				2A1B28251D45F6C800B5B318 /* MEAppDelegate.h */,
+				2A1B28261D45F6C800B5B318 /* MEAppDelegate.m */,
+				2A1B282E1D45F6C800B5B318 /* Assets.xcassets */,
+				2A1B28301D45F6C800B5B318 /* LaunchScreen.storyboard */,
+				2A1B28331D45F6C800B5B318 /* Info.plist */,
+				2A1B28221D45F6C800B5B318 /* Supporting Files */,
+				2A1B28551D45F7D800B5B318 /* MEGameViewController.h */,
+				2A1B28561D45F7D800B5B318 /* MEGameViewController.m */,
+				2A1B28801D45FB0900B5B318 /* game.scnassets */,
+				2A1B287F1D45FA4600B5B318 /* Interpolation */,
+				2A1B28741D45F9A600B5B318 /* Movement */,
+				2A1B28611D45F8C200B5B318 /* Graphics */,
+				2ACA1CDE1D4603900040D12C /* Shaders */,
+				2ACA1CD91D4601A80040D12C /* Categories */,
+			);
+			path = MagnetExperiment;
+			sourceTree = "<group>";
+		};
+		2A1B28221D45F6C800B5B318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B28231D45F6C800B5B318 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A1B283B1D45F6C800B5B318 /* MagnetExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B283C1D45F6C800B5B318 /* MagnetExperimentTests.m */,
+				2A1B283E1D45F6C800B5B318 /* Info.plist */,
+			);
+			path = MagnetExperimentTests;
+			sourceTree = "<group>";
+		};
+		2A1B28461D45F6C800B5B318 /* MagnetExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B28471D45F6C800B5B318 /* MagnetExperimentUITests.m */,
+				2A1B28491D45F6C800B5B318 /* Info.plist */,
+			);
+			path = MagnetExperimentUITests;
+			sourceTree = "<group>";
+		};
+		2A1B28611D45F8C200B5B318 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B28621D45F93300B5B318 /* MEGLProgram.h */,
+				2A1B28631D45F93300B5B318 /* MEGLProgram.m */,
+				2A1B28641D45F93300B5B318 /* MESceneKitTextureRenderer.h */,
+				2A1B28651D45F93300B5B318 /* MESceneKitTextureRenderer.m */,
+				2A1B28661D45F93300B5B318 /* METextureRenderer.h */,
+				2A1B28671D45F93300B5B318 /* METextureRenderer.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		2A1B28741D45F9A600B5B318 /* Movement */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B286B1D45F9A200B5B318 /* MEMenuSceneHandler.h */,
+				2A1B286C1D45F9A200B5B318 /* MEMenuSceneHandler.m */,
+				2A1B286D1D45F9A200B5B318 /* MEPipeSceneHandler.h */,
+				2A1B286E1D45F9A200B5B318 /* MEPipeSceneHandler.m */,
+				2A1B286F1D45F9A200B5B318 /* MERadialMovement.h */,
+				2A1B28701D45F9A200B5B318 /* MERadialMovement.m */,
+			);
+			name = Movement;
+			sourceTree = "<group>";
+		};
+		2A1B287F1D45FA4600B5B318 /* Interpolation */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B28751D45FA4100B5B318 /* VRM2DVector.h */,
+				2A1B28761D45FA4100B5B318 /* VRM2DVector.m */,
+				2A1B28771D45FA4100B5B318 /* VRM3DVector.h */,
+				2A1B28781D45FA4100B5B318 /* VRM3DVector.m */,
+				2A1B28791D45FA4100B5B318 /* VRMBicubicInterpolator.h */,
+				2A1B287A1D45FA4100B5B318 /* VRMBicubicInterpolator.m */,
+				2A1B287B1D45FA4100B5B318 /* VRMVector.h */,
+			);
+			name = Interpolation;
+			sourceTree = "<group>";
+		};
+		2ACA1CD91D4601A80040D12C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA1CD61D4601990040D12C /* UIColor+MEColor.h */,
+				2ACA1CD71D4601990040D12C /* UIColor+MEColor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2ACA1CDE1D4603900040D12C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA1CDA1D46038C0040D12C /* Shader.fsh */,
+				2ACA1CDB1D46038C0040D12C /* Shader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		7427AD84F229C2DC387EA205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EBC48BC1AE473EBC2E8683C /* Pods_MagnetExperiment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1B281E1D45F6C800B5B318 /* MagnetExperiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1B284C1D45F6C800B5B318 /* Build configuration list for PBXNativeTarget "MagnetExperiment" */;
+			buildPhases = (
+				1781EDB035F40B0E7ED01B65 /* [CP] Check Pods Manifest.lock */,
+				2A1B281B1D45F6C800B5B318 /* Sources */,
+				2A1B281C1D45F6C800B5B318 /* Frameworks */,
+				2A1B281D1D45F6C800B5B318 /* Resources */,
+				6987471901C83944F31FFC04 /* [CP] Embed Pods Frameworks */,
+				F1D148ED689A82886544FCD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagnetExperiment;
+			productName = MagnetExperiment;
+			productReference = 2A1B281F1D45F6C800B5B318 /* MagnetExperiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A1B28371D45F6C800B5B318 /* MagnetExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1B284F1D45F6C800B5B318 /* Build configuration list for PBXNativeTarget "MagnetExperimentTests" */;
+			buildPhases = (
+				2A1B28341D45F6C800B5B318 /* Sources */,
+				2A1B28351D45F6C800B5B318 /* Frameworks */,
+				2A1B28361D45F6C800B5B318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1B283A1D45F6C800B5B318 /* PBXTargetDependency */,
+			);
+			name = MagnetExperimentTests;
+			productName = MagnetExperimentTests;
+			productReference = 2A1B28381D45F6C800B5B318 /* MagnetExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A1B28421D45F6C800B5B318 /* MagnetExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1B28521D45F6C800B5B318 /* Build configuration list for PBXNativeTarget "MagnetExperimentUITests" */;
+			buildPhases = (
+				2A1B283F1D45F6C800B5B318 /* Sources */,
+				2A1B28401D45F6C800B5B318 /* Frameworks */,
+				2A1B28411D45F6C800B5B318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1B28451D45F6C800B5B318 /* PBXTargetDependency */,
+			);
+			name = MagnetExperimentUITests;
+			productName = MagnetExperimentUITests;
+			productReference = 2A1B28431D45F6C800B5B318 /* MagnetExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1B28171D45F6C800B5B318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thibault Farnier";
+				TargetAttributes = {
+					2A1B281E1D45F6C800B5B318 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QP2GZLJP98;
+					};
+					2A1B28371D45F6C800B5B318 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A1B281E1D45F6C800B5B318;
+					};
+					2A1B28421D45F6C800B5B318 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A1B281E1D45F6C800B5B318;
+					};
+				};
+			};
+			buildConfigurationList = 2A1B281A1D45F6C800B5B318 /* Build configuration list for PBXProject "MagnetExperiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1B28161D45F6C800B5B318;
+			productRefGroup = 2A1B28201D45F6C800B5B318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1B281E1D45F6C800B5B318 /* MagnetExperiment */,
+				2A1B28371D45F6C800B5B318 /* MagnetExperimentTests */,
+				2A1B28421D45F6C800B5B318 /* MagnetExperimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1B281D1D45F6C800B5B318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B28321D45F6C800B5B318 /* LaunchScreen.storyboard in Resources */,
+				2A1B28811D45FB0900B5B318 /* game.scnassets in Resources */,
+				2ACA1CDD1D46038C0040D12C /* Shader.vsh in Resources */,
+				2A1B282F1D45F6C800B5B318 /* Assets.xcassets in Resources */,
+				2ACA1CDC1D46038C0040D12C /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B28361D45F6C800B5B318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B28411D45F6C800B5B318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1781EDB035F40B0E7ED01B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6987471901C83944F31FFC04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagnetExperiment/Pods-MagnetExperiment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D148ED689A82886544FCD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagnetExperiment/Pods-MagnetExperiment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1B281B1D45F6C800B5B318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B287E1D45FA4100B5B318 /* VRMBicubicInterpolator.m in Sources */,
+				2A1B286A1D45F93300B5B318 /* METextureRenderer.m in Sources */,
+				2A1B28271D45F6C800B5B318 /* MEAppDelegate.m in Sources */,
+				2A1B287C1D45FA4100B5B318 /* VRM2DVector.m in Sources */,
+				2A1B28691D45F93300B5B318 /* MESceneKitTextureRenderer.m in Sources */,
+				2ACA1CD81D4601990040D12C /* UIColor+MEColor.m in Sources */,
+				2A1B287D1D45FA4100B5B318 /* VRM3DVector.m in Sources */,
+				2A1B28731D45F9A200B5B318 /* MERadialMovement.m in Sources */,
+				2A1B28721D45F9A200B5B318 /* MEPipeSceneHandler.m in Sources */,
+				2A1B28711D45F9A200B5B318 /* MEMenuSceneHandler.m in Sources */,
+				2A1B28681D45F93300B5B318 /* MEGLProgram.m in Sources */,
+				2A1B28571D45F7D800B5B318 /* MEGameViewController.m in Sources */,
+				2A1B28241D45F6C800B5B318 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B28341D45F6C800B5B318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B283D1D45F6C800B5B318 /* MagnetExperimentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1B283F1D45F6C800B5B318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B28481D45F6C800B5B318 /* MagnetExperimentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A1B283A1D45F6C800B5B318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1B281E1D45F6C800B5B318 /* MagnetExperiment */;
+			targetProxy = 2A1B28391D45F6C800B5B318 /* PBXContainerItemProxy */;
+		};
+		2A1B28451D45F6C800B5B318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1B281E1D45F6C800B5B318 /* MagnetExperiment */;
+			targetProxy = 2A1B28441D45F6C800B5B318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A1B28301D45F6C800B5B318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1B28311D45F6C800B5B318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A1B284A1D45F6C800B5B318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A1B284B1D45F6C800B5B318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A1B284D1D45F6C800B5B318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF57A7470663DC15CA4F0D00 /* Pods-MagnetExperiment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QP2GZLJP98;
+				INFOPLIST_FILE = MagnetExperiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applidium.MagnetExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A1B284E1D45F6C800B5B318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D0ABC93F362FD2B283E9BB /* Pods-MagnetExperiment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QP2GZLJP98;
+				INFOPLIST_FILE = MagnetExperiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applidium.MagnetExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A1B28501D45F6C800B5B318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagnetExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applidium.MagnetExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagnetExperiment.app/MagnetExperiment";
+			};
+			name = Debug;
+		};
+		2A1B28511D45F6C800B5B318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagnetExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applidium.MagnetExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagnetExperiment.app/MagnetExperiment";
+			};
+			name = Release;
+		};
+		2A1B28531D45F6C800B5B318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagnetExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applidium.MagnetExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagnetExperiment;
+			};
+			name = Debug;
+		};
+		2A1B28541D45F6C800B5B318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagnetExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applidium.MagnetExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagnetExperiment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1B281A1D45F6C800B5B318 /* Build configuration list for PBXProject "MagnetExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1B284A1D45F6C800B5B318 /* Debug */,
+				2A1B284B1D45F6C800B5B318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1B284C1D45F6C800B5B318 /* Build configuration list for PBXNativeTarget "MagnetExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1B284D1D45F6C800B5B318 /* Debug */,
+				2A1B284E1D45F6C800B5B318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1B284F1D45F6C800B5B318 /* Build configuration list for PBXNativeTarget "MagnetExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1B28501D45F6C800B5B318 /* Debug */,
+				2A1B28511D45F6C800B5B318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1B28521D45F6C800B5B318 /* Build configuration list for PBXNativeTarget "MagnetExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1B28531D45F6C800B5B318 /* Debug */,
+				2A1B28541D45F6C800B5B318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1B28171D45F6C800B5B318 /* Project object */;
+}
